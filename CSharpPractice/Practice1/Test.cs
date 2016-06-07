@@ -15,14 +15,21 @@ using System;
 namespace Practice1 
 {
     class Test
-    {       
+    {
+        //int v;
+        //public Test() { };
+        //public Test() { v = a; }    
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!\n\n");
 
             string s = ".NET";
             Console.WriteLine(s.ToLower());
             Console.WriteLine(s.Length);
+
+            Console.WriteLine("\n\n");
+
+            /* Calling class Counter */
 
             Counter c = new Counter(5);
             c.Inc();
@@ -31,6 +38,24 @@ namespace Practice1
             Counter d = new Counter(7);
             d.Inc();
             Console.WriteLine(d.Count);
+            Console.WriteLine("\n\n");
+
+            /* Array Example */
+
+            int[] numbers = new int[5];
+            string[,] names = new string[5, 4];
+            byte[][] scores = new byte[5][];
+
+            for (int i = 0; i < scores.Length; i++)
+            {
+                scores[i] = new byte[i + 3];
+            }
+            for (int i = 0; i < scores.Length; i++)
+            {
+                Console.WriteLine("Length of row {0} is {1}", i, scores[i].Length);
+            }
+
+
             Console.ReadLine();
         }
     }
