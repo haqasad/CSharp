@@ -10,10 +10,10 @@ namespace Practice1
     {
         int v;
         public DeclareArraysSample() { }
-        public DeclareArraysSample(int a)
-        {
-            if
-        }
+        //public DeclareArraysSample(int a)
+        //{
+        //    if
+        //}
         public void arraySample()
         {
             int[] numbers = new int[5];

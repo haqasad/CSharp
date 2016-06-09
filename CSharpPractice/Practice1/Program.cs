@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    public class DataTypeandSystemMethods
+    public class Program
     {
-        public void InputFile()
+        public static string HiThere(int j)
         {
-            string s = ".NET";
-            Console.WriteLine(s.ToLower());
-            Console.WriteLine(s.Length);
-            Console.ReadLine();
+            return "Hi there! #" + (j * 100);
         }        
     }
 }
