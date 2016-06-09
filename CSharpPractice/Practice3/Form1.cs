@@ -14,7 +14,7 @@ namespace Practice3
     {        
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         GetSecretIngredient ingredientMethod = null;
