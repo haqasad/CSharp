@@ -33,11 +33,12 @@ namespace Practice2
         private void button1_Click(object sender, EventArgs e)
         {
             this.Click += new EventHandler(SaySomething);
+            //MessageBox.Show("Something");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Click += new EventHandler(SaySomethingElse);
+            this.Click += new EventHandler(SaySomethingElse);            
         }
     }
 }
